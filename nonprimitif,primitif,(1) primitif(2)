@@ -1,0 +1,25 @@
+import java.util.Arrays;
+public class arrayayu {
+   
+    public static void main(String[] args) {
+        // Membuat array 1 dimensi bertipe data primitif
+        int[] angka = {6, 7, 8, 9, 10};
+        
+        // Membuat array 1 dimensi bertipe data non primitif
+        String[] nama = {"ayu", "nini", "suci"};
+        
+        // Membuat array 2 dimensi bertipe data primitif
+        char[][] abjad = {
+            {'u', 'y', 'a'},
+            {'g', 'h', 'i'},
+            {'k', 'l', 'm'}
+        };
+        // Mencetak array 1 dimensi bertipe data primitif
+        System.out.println(Arrays.toString(angka));
+        // Mencetak array 1 dimensi bertipe data non primitif
+        System.out.println(Arrays.toString(nama));
+        // Mencetak array 2 dimensi bertipe data primitif
+        System.out.println(Arrays.deepToString(abjad));
+     
+}
+}
